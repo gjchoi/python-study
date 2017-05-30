@@ -68,3 +68,20 @@ sudo pip3 install beautifulsoup4
 ~~~
 
 3.x버젼용 모듈을 받기 위해서는 위와 같이 실행
+
+
+#### beautifulsoup 테스트
+
+beautifulsoup_test.py 를 만들어 수행해본다
+
+~~~
+from urllib.request import urlopen
+from bs4 import BeautifulSoup
+html = urlopen("http://www.pythonscraping.com/pages/page1.html")
+bsObj = BeautifulSoup(html.read(), "html.parser")
+print(bsObj.h1)
+~~~
+
+~~~
+python3 beatifulsoup_test.py
+~~~
