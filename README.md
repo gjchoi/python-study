@@ -7,9 +7,9 @@
 ## Web Scraping with Python (파이썬으로 웹 크롤러 만들기)
 
 
-### MAC OS에 Python 환경설치
+## MAC OS에 Python 환경설치
 
-#### Python3 (3.5)설치
+### Python3 (3.5)설치
 기본적으로 mac에 2.7버젼이 깔려있다. (homebrew를 통해서 설치함)
 
 ~~~
@@ -42,7 +42,7 @@ alias python='/usr/local/bin/python3'
 ~~~
 
 
-#### pip설치
+### pip설치
 
 python의 라이브러리를 다운로드 받을 수 있게 해주는 모듈
 
@@ -70,7 +70,7 @@ sudo pip3 install beautifulsoup4
 3.x버젼용 모듈을 받기 위해서는 위와 같이 실행
 
 
-#### beautifulsoup 테스트
+### beautifulsoup 테스트
 
 beautifulsoup_test.py 를 만들어 수행해본다
 
